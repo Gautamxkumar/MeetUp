@@ -31,84 +31,21 @@ It’s like **Google Meet + Discord** with additional improvements for seamless 
 ## 🛠️ Tech Stack
 
 ### Backend:
-<div class="tech-stack">
-  <div class="tech-item">
-    <img src="https://i.ibb.co/ZzGVRbG8/node.png" alt="Node.js" />
-    <span>NODE.JS</span>
-  </div>
-  <div class="tech-item">
-    <img src="https://i.ibb.co/gbrb97JB/express.png" alt="Express.js" />
-    <span>EXPRESS.JS</span>
-  </div>
-  <div class="tech-item">
-    <img src="https://i.ibb.co/wZt5dzR0/mongo.jpg" alt="MongoDB" />
-    <span>MONGODB</span>
-  </div>
-  <div class="tech-item">
-    <img src="https://i.ibb.co/70c56rT/jwt.png" alt="JWT" />
-    <span>JWT</span>
-  </div>
-  <div class="tech-item">
-    <img src="https://i.ibb.co/MD0B7Qw6/stream.jpg" alt="Stream Chat API" />
-    <span>STREAM API</span>
-  </div>
-  <div class="tech-item">
-    <img src="https://i.ibb.co/1J4xFhFn/env.png" alt="dotenv" />
-    <span>DOTENV</span>
-  </div>
-  <div class="tech-item">
-    <img src="https://i.ibb.co/FqyMMhsM/cookie-parser.png" alt="cookie-parser" />
-    <span>COOKIE-PARSER</span>
-  </div>
-  <div class="tech-item">
-    <img src="https://i.ibb.co/HLwLd3NF/axios.jpg" alt="Axios" />
-    <span>AXIOS</span>
-  </div>
-  <div class="tech-item">
-    <img src="https://i.ibb.co/fVFHRjTj/api.png" alt="API" />
-    <span>API</span>
-  </div>
-</div>
+
+| Node.js | Express.js | MongoDB | JWT | Stream API |
+|---------|------------|---------|-----|------------|
+| <img src="https://i.ibb.co/ZzGVRbG8/node.png" width="50"/> | <img src="https://i.ibb.co/gbrb97JB/express.png" width="50"/> | <img src="https://i.ibb.co/wZt5dzR0/mongo.jpg" width="50"/> | <img src="https://i.ibb.co/70c56rT/jwt.png" width="50"/> | <img src="https://i.ibb.co/MD0B7Qw6/stream.jpg" width="50"/> |
+
+| dotenv | cookie-parser | Axios | API |
+|--------|---------------|-------|-----|
+| <img src="https://i.ibb.co/1J4xFhFn/env.png" width="50"/> | <img src="https://i.ibb.co/FqyMMhsM/cookie-parser.png" width="50"/> | <img src="https://i.ibb.co/HLwLd3NF/axios.jpg" width="50"/> | <img src="https://i.ibb.co/fVFHRjTj/api.png" width="50"/> |
 
 ### Frontend:
-<div class="tech-stack">
-  <div class="tech-item">
-    <img src="https://i.ibb.co/VYGNzyGG/react.png" alt="React" />
-    <span>REACT</span>
-  </div>
-</div>
 
-<style>
-.tech-stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px; /* space between items */
-  align-items: center;
-}
+| React |
+|-------|
+| <img src="https://i.ibb.co/VYGNzyGG/react.png" width="50"/> |
 
-.tech-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80px; /* uniform width for all */
-}
-
-.tech-item img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-  border-radius: 8px; /* optional rounded corners */
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-  margin-bottom: 5px;
-}
-
-.tech-item span {
-  text-align: center;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-</style>
 
 ---
 
@@ -166,44 +103,58 @@ STREAM_API_SECRET=your_stream_secret
 
 Below are screenshots of the app with frame pointers for clarity:
 
-1. ![Screenshot 1](https://i.ibb.co/pBSfpq1J/Screenshot-2025-06-30-102803.png)  
-   **Frame 1:** Login dashboard with user authentication and quick access to main features.
+1. <img src="https://i.ibb.co/pBSfpq1J/Screenshot-2025-06-30-102803.png" width="300"/>  
 
-2. ![Screenshot 2](https://i.ibb.co/TBxXjjdr/Screenshot-2025-06-30-102812.png)  
-   **Frame 2:** Login dashboard with user authentication and quick access to main features.
+    **Frame 1:** Login dashboard with user authentication and quick access to main features.
 
-3. ![Screenshot 3](https://i.ibb.co/DPnt6qvw/Screenshot-2025-06-30-102818.png)  
-   **Frame 3:** Login dashboard with email, password, and Sign In button.
+3. <img src="https://i.ibb.co/TBxXjjdr/Screenshot-2025-06-30-102812.png" width="300"/>  
 
-4. ![Screenshot 4](https://i.ibb.co/zWm0vTj9/Screenshot-2025-06-30-102852.png)  
-   **Frame 4:** MeetUp home dashboard with navigation, events, and profile.
+    **Frame 2:** Login dashboard with user authentication and quick access to main features.
 
-5. ![Screenshot 5](https://i.ibb.co/nMS7Gyd5/Screenshot-2025-06-30-102907.png)  
+5. <img src="https://i.ibb.co/DPnt6qvw/Screenshot-2025-06-30-102818.png" width="300"/>  
+
+    **Frame 3:** Login dashboard with email, password, and Sign In button.
+
+7. <img src="https://i.ibb.co/zWm0vTj9/Screenshot-2025-06-30-102852.png" width="300"/>  
+
+    **Frame 4:** MeetUp home dashboard with navigation, events, and profile.
+
+9. <img src="https://i.ibb.co/nMS7Gyd5/Screenshot-2025-06-30-102907.png" width="300"/>  
+ 
    **Frame 5:** Friend’s profile with settings options.
 
-6. ![Screenshot 6](https://i.ibb.co/TqpFXr3s/Screenshot-2025-06-30-102921.png)  
+10. <img src="https://i.ibb.co/TqpFXr3s/Screenshot-2025-06-30-102921.png" width="300"/>  
+ 
    **Frame 6:** Chat page with messages and input box.
 
-7. ![Screenshot 7](https://i.ibb.co/XkY12spK/Screenshot-2025-06-30-102932.png)  
+11. <img src="https://i.ibb.co/XkY12spK/Screenshot-2025-06-30-102932.png" width="300"/>  
+ 
    **Frame 7:** Typing.
 
-8. ![Screenshot 8](https://i.ibb.co/TxGFQ99D/Screenshot-2025-06-30-102936.png)  
+12. <img src="https://i.ibb.co/TxGFQ99D/Screenshot-2025-06-30-102936.png" width="300"/>  
+ 
    **Frame 8:** Chat page with link sharing and video call.
 
-9. ![Screenshot 9](https://i.ibb.co/6R3tctHB/Screenshot-2025-06-30-102958.png)  
+13. <img src="https://i.ibb.co/6R3tctHB/Screenshot-2025-06-30-102958.png" width="300"/>  
+  
    **Frame 9:** Notification prompting to open camera.
 
-10. ![Screenshot 10](https://i.ibb.co/G3k37L1z/Screenshot-2025-06-30-103006.png)  
+14. <img src="https://i.ibb.co/G3k37L1z/Screenshot-2025-06-30-103006.png" width="300"/>  
+
     **Frame 10:** Video call UI with camera on, emoji, screen share, record, end call, and profile pic.
 
-11. ![Screenshot 11](https://i.ibb.co/20n2XF4Q/Screenshot-2025-06-30-103017.png)  
+15. <img src="https://i.ibb.co/20n2XF4Q/Screenshot-2025-06-30-103017.png" width="300"/>  
+  
     **Frame 11:** Home screen with Explore for new learners or friends.
 
-12. ![Screenshot 12](https://i.ibb.co/NgB7HYtD/Screenshot-2025-06-30-103033.png)  
+16. <img src="https://i.ibb.co/NgB7HYtD/Screenshot-2025-06-30-103033.png" width="300"/>  
+
     **Frame 12:** Friend request notification alert.
 
-13. ![Screenshot 13](https://i.ibb.co/MDy4yfF5/Screenshot-2025-06-30-103038.png)  
+17. <img src="https://i.ibb.co/MDy4yfF5/Screenshot-2025-06-30-103038.png" width="300"/>  
+  
     **Frame 13:** Theme change dropdown menu.
+
 
 
 
