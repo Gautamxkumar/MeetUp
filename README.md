@@ -1,12 +1,12 @@
 
+<center>
 <div align="center">
   <img src="https://i.ibb.co/YFVKFXDf/Meetup.png" alt="MeetUp Logo" width="120"/>
 </div>
 
-<div align="center">
+
 
 # **MeetUp 🎥💬**
-
 
 
 
